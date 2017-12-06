@@ -1,0 +1,58 @@
+package BattleShip;
+
+/**
+ *
+ * @author aabuchho
+ */
+public class Main {
+    /**
+     * The entry point to our program. 
+     * 
+     * @param args the first element will be the desired port number 
+     */
+    public static void main(String[] args) {
+        /*
+        The main method in every Java program is passed in an array of strings 
+        as a parameter, which are specified on the command line when executing 
+        the program.
+        
+        In order for your AI to be able to connect to the BattleShip server, 
+        you will need to construct an object of type Protocol with an instance 
+        of your AI and the necessary server port number. To do so, follow the 
+        steps outlined below.
+        
+     1) Create an instance of the class that you have created that implements 
+        the BattleShipPlayer interface and store the reference with an 
+        identifier of your choosing.
+        
+     2) The necessary port number will be provided as a command line argument 
+        and be stored as a string as the first element in the args parameter 
+        of this main method. You will need to parse that String to an int and 
+        store the value with an identifier of your choosing.
+        
+     3) Create an instance of the Protocol class by using the constructor
+        that takes two arguments. Use the identifiers that you have created 
+        in parts 1 and 2 for the two parameters. Store the reference to 
+        the Protocol object in an identifier of your choosing.
+        
+     4) Call the start method on the object reference from part 3. This 
+        will attempt to connect to the BattleShip server and allow your AI 
+        to participate in the competition.
+        
+            ** Note: Since the competetion portion of this assignment is 
+            hosted on a server, you will not be able to run the project on 
+            your computer to participate. In order to compete, you will need 
+            to follow the competition submission instructions, which can be
+            found within the lab08 Instructions document located under the 
+            BattleShip heading.       
+        
+        */
+        
+        //Place your code below this comment
+        
+        
+        
+        
+        
+    }
+}
